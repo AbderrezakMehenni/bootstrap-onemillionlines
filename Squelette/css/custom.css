@@ -1,18 +1,101 @@
 /* Vos customisations des classes de Bootstrap */
-
-
-
-
+body {
+    font-family: 'roboto', 'sans serif';
+}
+#home {
+    background-image: url(../images/hero-image.jpg);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+#get-involved {
+    background-color:  #e5e7e6;
+}
+.span-home {
+    font-weight: bold;
+}
+.p-home {
+    font-size: x-large;
+}
+.p-l {
+    font-size: large;
+}
+hr {
+    width: 10%;
+    background-color: #f4b1aa;
+}
+.card {
+    background-color:  #e5e7e6; 
+}
+.mt-6 {
+    margin-top: 15%;
+}
+.bg-grey {
+    background-color: #222222;
+}
+.bg-saumon {
+    background-color: #f74c3c;
+}
+.text-saumon {
+    color: #f74c3c;
+}
+.btn-saumon {
+    background-color: #f74c3c;
+}
+.card {
+    border-width: 0;
+}
+.test {
+    width: 20%;
+    height: 100%;
+}
+.burger {
+    display: none;
+}
+.navbar-dark{
+    background-color: black;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    border-radius: 50%;
+  }
+  
+  .back-to-top:hover {
+    background-color: #555;
+  }
 /* Responsive Styling */
 
 @media (max-width: 1199px) {
-
+    .test {
+        width: 25%;
+        height: 100%;
+    }
 }
 
 @media (max-width: 991px) {
-
+    .test {
+        width: 35%;
+        height: 100%;
+    }
 }
 
 @media (max-width: 767px) {
-
+    .test {
+        width: 15%;
+        height: 100%;
+    }
+    .content {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
 }
